@@ -1,2 +1,6 @@
 SpeechRecognition
 joblib
+fastapi
+uvicorn
+scipy
+pydub
