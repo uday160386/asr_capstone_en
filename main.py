@@ -15,6 +15,7 @@ from fastapi import FastAPI, File, Form
 @app.post("/api/audio-file")
 async def upload_file(
     audio_file_path: Annotated[str, Form()],
+    lang_id: Annotated[str, Form()],
 ):
-    asr_out=execute_asr_cap_en.calling_asr(audio_file_path,"en_ID")
+    asr_out=execute_asr_cap_en.calling_asr(audio_file_path, lang_id)
     return {"out-put-string": asr_out}
