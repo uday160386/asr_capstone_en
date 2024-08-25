@@ -1,6 +1,6 @@
 SpeechRecognition
 joblib
-fastapi
+fastapi[standard]
 uvicorn
-scipy
-pydub
+azure.storage.blob
+soundfile

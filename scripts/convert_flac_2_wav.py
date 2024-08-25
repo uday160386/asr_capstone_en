@@ -26,6 +26,3 @@ def converting_wav_files():
                 flac_tmp_audio_data.export(TRAIN_DATA_HOME+"/"+get_sub_dir[0]+'/'+get_sub_dir[1]+'/'+split_filename[0] + ".wav", format="wav")
 
     print('Files converted to WAV sucussfully.....')
-
-if __name__=='__main__':
-    converting_wav_files()
