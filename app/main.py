@@ -1,13 +1,13 @@
 from fastapi import FastAPI
 
 from random import randrange
-
 from models.SoundConversion import VoiceData
-from app import execute_asr_cap_en
+
+import scripts.execute_asr_cap_en as execute_asr_cap_en
 from scripts import download_from_blob
 import os.path
 
-TEMP_AUDIO_FILES =  "test_audio_files/tmp/"
+TEMP_AUDIO_FILES =  "test_audio_files/temp/"
 
 app = FastAPI()
 

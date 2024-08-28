@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4ae23dc2-b35e-46ef-82db-f2d0583b00b0/resourceGroups/asrcapstroneen_group/providers/Microsoft.Web/sites/asrcapstroneen",
+    "appService.deploySubpath": "."
+}

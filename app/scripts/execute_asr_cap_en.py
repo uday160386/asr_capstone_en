@@ -4,8 +4,6 @@ import traceback
 
 r = sr.Recognizer()
 
-mod_root = "test_audio_files/"
-TRAIN_DATA_HOME = mod_root+"wav/"
 out_file_path="result_out.txt"
 
 def calling_asr(wav_file,lid):
